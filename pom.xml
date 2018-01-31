@@ -52,12 +52,12 @@
 
     <repositories>
         <repository>
-            <id>spring-releases</id>
-            <url>https://repo.spring.io/libs-release</url>
-        </repository>
-        <repository>
             <id>DaCASpaqrlProcessorClient</id>
             <url>https://raw.githubusercontent.com/DaCA-wade/DaCASparqlProcessorClient/master</url>
+        </repository>
+        <repository>
+            <id>spring-releases</id>
+            <url>https://repo.spring.io/libs-release</url>
         </repository>
     </repositories>
 
