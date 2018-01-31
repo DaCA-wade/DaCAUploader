@@ -15,7 +15,6 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.Random;
 
-@CrossOrigin(origins = "http://localhost:8080")
 @RestController
 public class UploaderServiceImpl implements UploaderService {
 
