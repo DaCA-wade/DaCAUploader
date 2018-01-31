@@ -32,6 +32,8 @@
         <dependency>
             <groupId>com.wade.daca.sparql.client</groupId>
             <artifactId>DaCASparqlProcessorClient</artifactId>
+            <version>1.0.0</version>
+            <type>jar</type>
             <scope>system</scope>
             <systemPath>${project.basedir}/libs/DaCASparqlProcessorClient.jar</systemPath>
         </dependency>
