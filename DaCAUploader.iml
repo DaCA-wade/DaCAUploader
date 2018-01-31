@@ -67,14 +67,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: net.minidev:accessors-smart:1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.ow2.asm:asm:5.0.3" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
-    <orderEntry type="module-library">
-      <library name="Maven: com.wade.daca.sparql.client:DaCASparqlProcessorClient:1.0.0">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/libs/DaCASparqlProcessorClient.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="Maven: com.wade.daca.sparql.client:DaCASparqlProcessorClient:1.0.0" level="project" />
   </component>
 </module>

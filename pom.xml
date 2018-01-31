@@ -33,9 +33,7 @@
             <groupId>com.wade.daca.sparql.client</groupId>
             <artifactId>DaCASparqlProcessorClient</artifactId>
             <version>1.0.0</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/libs/DaCASparqlProcessorClient.jar</systemPath>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
@@ -49,27 +47,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-install-plugin</artifactId>
-                <version>2.5</version>
-                <executions>
-                    <execution>
-                        <phase>initialize</phase>
-                        <goals>
-                            <goal>install-file</goal>
-                        </goals>
-                        <configuration>
-                            <groupId>com.wade.daca.sparql.client</groupId>
-                            <artifactId>DaCASparqlProcessorClient</artifactId>
-                            <version>1.0.0</version>
-                            <packaging>jar</packaging>
-                            <file>${basedir}/libs/DaCASparqlProcessorClient.jar</file>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
         </plugins>
     </build>
 
@@ -77,6 +54,10 @@
         <repository>
             <id>spring-releases</id>
             <url>https://repo.spring.io/libs-release</url>
+        </repository>
+        <repository>
+            <id>DaCASpaqrlProcessorClient</id>
+            <url>https://raw.githubusercontent.com/DaCA-wade/DaCASparqlProcessorClient/master</url>
         </repository>
     </repositories>
 
