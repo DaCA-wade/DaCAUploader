@@ -52,7 +52,7 @@
 
     <repositories>
         <repository>
-            <id>DaCASpaqrlProcessorClient</id>
+            <id>DaCASparqlProcessorClient</id>
             <url>https://raw.githubusercontent.com/DaCA-wade/DaCASparqlProcessorClient/master</url>
         </repository>
         <repository>
