@@ -62,10 +62,10 @@
     </repositories>
 
     <pluginRepositories>
-         <repository>
+         <pluginRepository>
            <id>DaCASparqlProcessorClient</id>
            <url>https://raw.githubusercontent.com/DaCA-wade/DaCASparqlProcessorClient/master</url>
-        </repository>
+        </pluginRepository>
         <pluginRepository>
             <id>spring-releases</id>
             <url>https://repo.spring.io/libs-release</url>
